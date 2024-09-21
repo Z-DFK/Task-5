@@ -13,6 +13,37 @@ a {
     background-color: black;
 }
 
+.navbar {
+    display: flex;
+}
+.navbar__list {
+    display: flex;
+    padding: 15px 15px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    margin-left: 150px;
+    gap: 65px;
+    padding-bottom: 35px;
+}
+
+.navbar__listLink {
+    font-size: 20px;
+}
+.navbar__number {
+    display: flex;
+    gap: 155px;
+}
+.navbar__numberLink {
+    font-size: 20px;
+    margin-left: 155px;
+}
+.navbar__language {
+    align-items: center;
+    font-size: 20px;
+    gap: 25px;
+    display: flex;
+}
+
 .project__button {
     border: none;
     background-color: #B21414;
@@ -80,4 +111,19 @@ a {
     padding: 16px 35px;
     outline: 5px solid #B2141473;
     cursor: pointer;
+}
+
+.marketing__name {
+    color: #B21414;
+    font-size: 95px;
+    margin-left: 75px;
+}
+.marketing__title {
+    font-size: 140px;
+    margin-bottom: 20px;
+    margin-left: 75px;
+}
+.marketing__text {
+    font-size: 30px;
+    margin-left: 75px;
 }
