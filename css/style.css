@@ -127,3 +127,17 @@ a {
     font-size: 30px;
     margin-left: 75px;
 }
+.cases__text {
+    font-size: 30px;
+}
+.cases__tag {
+    font-size: 30px;
+}
+.cases__tag1 {
+    border: none;
+    background-color: #B2141473;
+    border-radius: 100px;
+    color: white;
+    padding: 16px 35px;
+    max-width: 250px;
+}
