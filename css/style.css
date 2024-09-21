@@ -12,3 +12,72 @@ a {
 .project {
     background-color: black;
 }
+
+.project__button {
+    border: none;
+    background-color: #B21414;
+    border-radius: 100px;
+    color: white;
+    padding: 16px 35px;
+    outline: 5px solid #B2141473;
+    cursor: pointer;
+}
+
+.creating {
+    background-color: #12141C;
+}
+.creating__button {
+    border: none;
+    background-color: #B21414;
+    border-radius: 100px;
+    color: white;
+    padding: 16px 35px;
+    outline: 5px solid #B2141473;
+    cursor: pointer;
+}
+
+.analys {
+    background-color: #12141C;
+}
+.analys__button {
+    border: none;
+    background-color: #B21414;
+    border-radius: 100px;
+    color: white;
+    padding: 16px 35px;
+    outline: 5px solid #B2141473;
+    cursor: pointer;
+}
+
+.advertising {
+    background-color: #12141C;
+}
+.advertising__button {
+    border: none;
+    background-color: #B21414;
+    border-radius: 100px;
+    color: white;
+    padding: 16px 35px;
+    outline: 5px solid #B2141473;
+    cursor: pointer;
+}
+
+.fouro__button {
+    border: none;
+    background-color: #B21414;
+    border-radius: 100px;
+    color: white;
+    padding: 16px 35px;
+    outline: 5px solid #B2141473;
+    cursor: pointer;
+}
+
+.reviews__button {
+    border: none;
+    background-color: #B21414;
+    border-radius: 100px;
+    color: white;
+    padding: 16px 35px;
+    outline: 5px solid #B2141473;
+    cursor: pointer;
+}
