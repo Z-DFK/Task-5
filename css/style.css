@@ -8,3 +8,7 @@ a {
     text-decoration: none;
     transition: all .7s ease;
 }
+
+.project {
+    background-color: black;
+}
