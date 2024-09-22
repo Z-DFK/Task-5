@@ -19,6 +19,7 @@ a {
     padding: 30px 0;
     z-index: 9999;
     display: flex;
+    margin-left: 50px;
 }
 
 .header__container {
@@ -321,37 +322,6 @@ a {
     width: fit-content;
 }
 
-.case {
-    background-color: #191C27;
-}
-
-.case__container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 100%;
-    margin-left: 50px;
-    padding-bottom: 15px;
-}
-
-.case__list {
-    position: relative;
-    padding: 0;
-    margin: 0;
-    height: 610px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-.case__image {
-    position: absolute;
-    top: -35px;
-    bottom: -35px;
-    left: 520px;
-    height: auto;
-}
-
 .case__button {
     padding: 16px 35px;
     width: fit-content;
@@ -369,43 +339,63 @@ a {
     margin-top: 50px;
 }
 
-.case__item {
+.case{
+    background-color: #191C27;
+}
+.case__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;  
+    padding-bottom: 15px;  
+    padding-top: 125px;
+}
+.case__list{
+    position: relative;
+    padding: 0;
+    margin: 0;
+    height: 610px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.case__image{
+    position: absolute;
+    top: -35px;
+    bottom: -35px;
+    left: 520px;
+    height: auto;
+}
+.case__item{
     padding: 30px 0;
     display: flex;
     justify-content: space-between;
     border-bottom: 1px solid #fff;
-    transition: all 0.3s ease-in-out;
 }
-
-.case__item-left {
+.case__item-left{
     display: flex;
     flex-direction: column;
     gap: 15px;
     max-width: 460px;
 }
-
-.case__item-title {
+.case__item-title{
     margin: 0 0 0px 0;
     font-size: 22px;
     font-weight: 600;
     text-transform: uppercase;
-    transition: all 0.3s ease-in-out;
 }
-
-.case__item-desc {
+.case__item-desc{
     margin: 0;
     font-size: 18px;
     font-weight: 400;
     letter-spacing: 1%;
 }
-
-.case__item-right {
+.case__item-right{
     display: flex;
     align-items: center;
     gap: 58px;
 }
-
-.case__item-text {
+.case__item-text{
     font-size: 16px;
     font-weight: 500;
     text-transform: uppercase;
