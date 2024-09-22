@@ -153,6 +153,7 @@ a {
     padding: 16px 35px;
     max-width: 250px;
 }
+
 .cases__tag2 {
     border: none;
     background-color: #B2141473;
@@ -161,6 +162,7 @@ a {
     padding: 16px 35px;
     max-width: 250px;
 }
+
 .cases__tag3 {
     border: none;
     background-color: #B2141473;
@@ -169,6 +171,7 @@ a {
     padding: 16px 35px;
     max-width: 250px;
 }
+
 .cases__tag4 {
     border: none;
     background-color: #B2141473;
@@ -177,6 +180,7 @@ a {
     padding: 16px 35px;
     max-width: 250px;
 }
+
 .cases__tag5 {
     border: none;
     background-color: #B2141473;
@@ -185,6 +189,7 @@ a {
     padding: 16px 35px;
     max-width: 250px;
 }
+
 .cases__tag6 {
     border: none;
     background-color: #B2141473;
@@ -193,6 +198,7 @@ a {
     padding: 16px 35px;
     max-width: 250px;
 }
+
 .cases__tag7 {
     border: none;
     background-color: #B2141473;
@@ -201,6 +207,7 @@ a {
     padding: 16px 35px;
     max-width: 250px;
 }
+
 .cases__tag8 {
     border: none;
     background-color: #B2141473;
@@ -209,6 +216,7 @@ a {
     padding: 16px 35px;
     max-width: 250px;
 }
+
 .cases__tag9 {
     border: none;
     background-color: #B2141473;
@@ -299,4 +307,67 @@ a {
     font-weight: 500;
     text-transform: uppercase;
     transition: all 0.3s ease-in-out;
+}
+
+.footer {
+    background-color: #191C27;
+}
+
+.footer__container {
+    padding-block: 75px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 50px;
+}
+
+.footer__list {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer__item {
+    cursor: pointer;
+}
+
+.footer__item-title {
+    margin: 0 0 20px 0;
+    font-weight: 600;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.footer__item--heading {
+    font-weight: 600;
+    font-size: 18px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.footer__item--copyright {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer__link {
+    font-weight: 400;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.footer__link--heading {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.footer__address {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
