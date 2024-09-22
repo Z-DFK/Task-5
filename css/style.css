@@ -211,95 +211,39 @@ a {
     z-index: -1;
 }
 
-.cases__text {
+.about{
+    height: calc(100vh);
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.about__container{
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 65px;
+    z-index: 1;
+}
+.about__description{
+    margin: 0;  
     font-size: 30px;
+    line-height: 43.5px;
 }
-
-.cases__tag {
+.about__tags{
+    margin: 0;
+    padding: 0;
+    gap: 20px 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.about__list{
+    padding: 10px 16px;
     font-size: 30px;
+    background-color: #B2141466;
+    border-radius: 30px;
+    width: fit-content;
 }
-
-.cases__tag1 {
-    border: none;
-    background-color: #B2141473;
-    border-radius: 100px;
-    color: white;
-    padding: 16px 35px;
-    max-width: 250px;
-}
-
-.cases__tag2 {
-    border: none;
-    background-color: #B2141473;
-    border-radius: 100px;
-    color: white;
-    padding: 16px 35px;
-    max-width: 250px;
-}
-
-.cases__tag3 {
-    border: none;
-    background-color: #B2141473;
-    border-radius: 100px;
-    color: white;
-    padding: 16px 35px;
-    max-width: 250px;
-}
-
-.cases__tag4 {
-    border: none;
-    background-color: #B2141473;
-    border-radius: 100px;
-    color: white;
-    padding: 16px 35px;
-    max-width: 250px;
-}
-
-.cases__tag5 {
-    border: none;
-    background-color: #B2141473;
-    border-radius: 100px;
-    color: white;
-    padding: 16px 35px;
-    max-width: 250px;
-}
-
-.cases__tag6 {
-    border: none;
-    background-color: #B2141473;
-    border-radius: 100px;
-    color: white;
-    padding: 16px 35px;
-    max-width: 250px;
-}
-
-.cases__tag7 {
-    border: none;
-    background-color: #B2141473;
-    border-radius: 100px;
-    color: white;
-    padding: 16px 35px;
-    max-width: 250px;
-}
-
-.cases__tag8 {
-    border: none;
-    background-color: #B2141473;
-    border-radius: 100px;
-    color: white;
-    padding: 16px 35px;
-    max-width: 250px;
-}
-
-.cases__tag9 {
-    border: none;
-    background-color: #B2141473;
-    border-radius: 100px;
-    color: white;
-    padding: 16px 35px;
-    max-width: 250px;
-}
-
 
 .case {
     background-color: #191C27;
