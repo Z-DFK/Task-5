@@ -16,6 +16,7 @@ a {
 .navbar {
     display: flex;
 }
+
 .navbar__list {
     display: flex;
     padding: 15px 15px;
@@ -29,14 +30,17 @@ a {
 .navbar__listLink {
     font-size: 20px;
 }
+
 .navbar__number {
     display: flex;
     gap: 155px;
 }
+
 .navbar__numberLink {
     font-size: 20px;
     margin-left: 155px;
 }
+
 .navbar__language {
     align-items: center;
     font-size: 20px;
@@ -57,6 +61,7 @@ a {
 .creating {
     background-color: #12141C;
 }
+
 .creating__button {
     border: none;
     background-color: #B21414;
@@ -70,6 +75,7 @@ a {
 .analys {
     background-color: #12141C;
 }
+
 .analys__button {
     border: none;
     background-color: #B21414;
@@ -83,6 +89,7 @@ a {
 .advertising {
     background-color: #12141C;
 }
+
 .advertising__button {
     border: none;
     background-color: #B21414;
@@ -118,21 +125,26 @@ a {
     font-size: 95px;
     margin-left: 75px;
 }
+
 .marketing__title {
     font-size: 140px;
     margin-bottom: 20px;
     margin-left: 75px;
 }
+
 .marketing__text {
     font-size: 30px;
     margin-left: 75px;
 }
+
 .cases__text {
     font-size: 30px;
 }
+
 .cases__tag {
     font-size: 30px;
 }
+
 .cases__tag1 {
     border: none;
     background-color: #B2141473;
@@ -140,4 +152,151 @@ a {
     color: white;
     padding: 16px 35px;
     max-width: 250px;
+}
+.cases__tag2 {
+    border: none;
+    background-color: #B2141473;
+    border-radius: 100px;
+    color: white;
+    padding: 16px 35px;
+    max-width: 250px;
+}
+.cases__tag3 {
+    border: none;
+    background-color: #B2141473;
+    border-radius: 100px;
+    color: white;
+    padding: 16px 35px;
+    max-width: 250px;
+}
+.cases__tag4 {
+    border: none;
+    background-color: #B2141473;
+    border-radius: 100px;
+    color: white;
+    padding: 16px 35px;
+    max-width: 250px;
+}
+.cases__tag5 {
+    border: none;
+    background-color: #B2141473;
+    border-radius: 100px;
+    color: white;
+    padding: 16px 35px;
+    max-width: 250px;
+}
+.cases__tag6 {
+    border: none;
+    background-color: #B2141473;
+    border-radius: 100px;
+    color: white;
+    padding: 16px 35px;
+    max-width: 250px;
+}
+.cases__tag7 {
+    border: none;
+    background-color: #B2141473;
+    border-radius: 100px;
+    color: white;
+    padding: 16px 35px;
+    max-width: 250px;
+}
+.cases__tag8 {
+    border: none;
+    background-color: #B2141473;
+    border-radius: 100px;
+    color: white;
+    padding: 16px 35px;
+    max-width: 250px;
+}
+.cases__tag9 {
+    border: none;
+    background-color: #B2141473;
+    border-radius: 100px;
+    color: white;
+    padding: 16px 35px;
+    max-width: 250px;
+}
+
+
+.case {
+    background-color: #191C27;
+}
+
+.case__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+.case__list {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    height: 610px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.case__image {
+    position: absolute;
+    top: -35px;
+    bottom: -35px;
+    left: 520px;
+    height: auto;
+}
+
+.case__button {
+    border: none;
+    background-color: #B21414;
+    border-radius: 100px;
+    color: white;
+    padding: 16px 35px;
+    outline: 5px solid #B2141473;
+    cursor: pointer;
+}
+
+.case__item {
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #fff;
+    transition: all 0.3s ease-in-out;
+}
+
+.case__item-left {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 460px;
+}
+
+.case__item-title {
+    margin: 0 0 0px 0;
+    font-size: 22px;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: all 0.3s ease-in-out;
+}
+
+.case__item-desc {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 1%;
+}
+
+.case__item-right {
+    display: flex;
+    align-items: center;
+    gap: 58px;
+}
+
+.case__item-text {
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: all 0.3s ease-in-out;
 }
