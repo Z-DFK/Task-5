@@ -120,6 +120,7 @@ a {
     display: flex;
     gap: 150px;
     transition: all 0.3s ease-in-out;
+    margin-left: 125px;
 }
 
 .header__menu {
