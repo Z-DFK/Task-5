@@ -100,6 +100,7 @@ a {
     justify-content: center;
     font-size: 30px;
     margin-left: 50px;
+    padding-bottom: 150px;
 }
 .analys__desc{
     margin: 0 0 40px 0;
@@ -120,18 +121,40 @@ a {
     box-shadow: 0px 0px 0px 5px #b2141473;
 }
 
-.advertising {
+.advertising{
     background-color: #12141C;
 }
-
+.advertising__container{
+    height: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 30px;
+    margin-left: 50px;
+    padding-bottom: 50px;
+}
+.advertising__title{
+    margin: 0 0 50px 0;
+}
+.advertising__desc{
+    margin: 0 0 40px 0;
+}
 .advertising__button {
+    padding: 16px 35px;
+    width: fit-content;
+    font-size: 18px;
+    text-transform: uppercase;
+    cursor: pointer;
     border: none;
     background-color: #B21414;
     border-radius: 100px;
-    color: white;
-    padding: 16px 35px;
-    outline: 5px solid #B2141473;
-    cursor: pointer;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    box-shadow: 0px 0px 0px 5px #b2141473;
+    margin-bottom: 55px;
 }
 
 .team {
@@ -307,6 +330,8 @@ a {
     flex-direction: column;
     justify-content: center;
     height: 100%;
+    margin-left: 50px;
+    padding-bottom: 15px;
 }
 
 .case__list {
@@ -328,13 +353,20 @@ a {
 }
 
 .case__button {
+    padding: 16px 35px;
+    width: fit-content;
+    font-size: 18px;
+    text-transform: uppercase;
+    cursor: pointer;
     border: none;
     background-color: #B21414;
     border-radius: 100px;
-    color: white;
-    padding: 16px 35px;
-    outline: 5px solid #B2141473;
-    cursor: pointer;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    box-shadow: 0px 0px 0px 5px #b2141473;
+    margin-top: 50px;
 }
 
 .case__item {
@@ -390,6 +422,8 @@ a {
     justify-content: space-between;
     flex-wrap: wrap;
     row-gap: 50px;
+    margin-left: 15px;
+    cursor: pointer;
 }
 
 .footer__list {
