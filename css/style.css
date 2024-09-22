@@ -13,6 +13,81 @@ a {
     background-color: black;
 }
 
+.project__container{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 50px;
+    font-size: 30px;
+    padding-bottom: 100px;
+    padding-top: 150px;
+}
+.project__block{
+    width: 50%;
+    z-index: 1;
+}
+.project__title{
+    font-weight: 500;
+}
+.project__list{
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+.project__item{
+    display: flex;
+    width: 100%;
+}
+.project__icon{
+    padding: 16px 0 16px 25px;
+    background-color: #fff;
+    border-radius: 6px 0 0 6px;
+}
+.project__input{
+    width: 100%;
+    border-radius: 0 6px 6px 0;
+    height: 97%;
+    background-color: #fff;
+    border: none;
+}
+.project__input--comment{
+    padding: 25px;
+    border-radius: 6px;
+    height: 175px;
+    margin: 0 0 16px 0;
+}
+.project__text {
+    font-size: 20px;
+    padding-bottom: 50px;
+}
+
+.project__img{
+    width: 50%;
+    position: absolute;
+    right: 0;
+    margin-top: 450px;
+    transform: translateY(-50%);
+    z-index: 0;
+}
+
+.project__button {
+    padding: 16px 35px;
+    width: fit-content;
+    font-size: 18px;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: none;
+    background-color: #B21414;
+    border-radius: 100px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    margin-top: 45px;
+    box-shadow: 0px 0px 0px 5px #b2141473;
+}
+
 .header {
     position: sticky;
     top: 0;
@@ -78,16 +153,6 @@ a {
 
 .header__button {
     display: none;
-}
-
-.project__button {
-    border: none;
-    background-color: #B21414;
-    border-radius: 100px;
-    color: white;
-    padding: 16px 35px;
-    outline: 5px solid #B2141473;
-    cursor: pointer;
 }
 
 .analys{
@@ -560,7 +625,7 @@ a {
 }
 .reviews__item--img{
     background-color: black;
-    height: 260px;
+    height: 200px;
 }
 .reviews__item-image{
     width: 65%;
